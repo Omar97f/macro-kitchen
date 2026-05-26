@@ -1,0 +1,74 @@
+{
+  "restaurant": {
+    "name": "Macro's Kitchen",
+    "logo": "logo.jpg",
+    "whatsapp": "+96179164160",
+    "whatsappMessage": "Hello Macro's Kitchen, I'd like to make a reservation.",
+    "googleMapsUrl": "https://maps.app.goo.gl/tJouSNC6wWsLxZQX8",
+    "location": "Anfeh el Koura"
+  },
+  "sections": [
+    {
+      "id": "plate",
+      "label": "Plat du Jour",
+      "type": "daily",
+      "items": [
+        { "id": "plate_mon", "day": "Monday", "name": "Djeij w batata bl forn", "description": "", "price": 10.00 },
+        { "id": "plate_tue", "day": "Tuesday", "name": "Chicken noodles", "description": "", "price": 11.00 },
+        { "id": "plate_wed", "day": "Wednesday", "name": "Spinach and rice", "description": "", "price": 11.00 },
+        { "id": "plate_thu", "day": "Thursday", "name": "Beef steak w fries & salad", "description": "", "price": 11.00 },
+        { "id": "plate_fri", "day": "Friday", "name": "Chicken alfredo pasta", "description": "", "price": 11.00 },
+        { "id": "plate_sat", "day": "Saturday", "name": "Riz 3a djeij w salad", "description": "", "price": 11.00 },
+        { "id": "plate_sun", "day": "Sunday", "name": "Samkeh harra", "description": "", "price": 13.00 }
+      ]
+    },
+    {
+      "id": "strips",
+      "label": "Chicken Strips",
+      "type": "menu",
+      "items": [
+        { "id": "strips_kids", "name": "Kids Meal", "description": "3 pcs chicken strips, fries, bun, sauce, ketchup", "price": 8.00 },
+        { "id": "strips_5pc", "name": "5 pcs Combo", "description": "5 pcs chicken strips, coleslaw, fries, bun, sauce, ketchup", "price": 13.00 },
+        { "id": "strips_bucket", "name": "Bucket Combo", "description": "12 pcs chicken strips, 3 coleslaw, fries, 3 buns, sauce, ketchup", "price": 29.00 },
+        { "id": "strips_addpc", "name": "Add Pieces", "description": "", "price": 1.80, "unit": "pc" },
+        { "id": "strips_sauce", "name": "Macro's Sauce", "description": "", "price": 1.00 },
+        { "id": "strips_cheddar", "name": "Cheddar Cheese Sauce", "description": "", "price": 1.50 },
+        { "id": "strips_honey", "name": "Honey Mustard Sauce", "description": "", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "burgers",
+      "label": "Burgers, Wraps & Sides",
+      "type": "menu",
+      "items": [
+        { "id": "burgers_crispy", "name": "Crispy Chicken Burger", "description": "Soft bun with chicken strips, lettuce, pickles, cheddar, Macro's sauce, and BBQ/ketchup sauce", "price": 6.50 },
+        { "id": "burgers_wrap", "name": "Crispy Chicken Wrap", "description": "Soft tortilla bread with chicken strips, lettuce, pickles, mayo garlic sauce", "price": 5.00 },
+        { "id": "burgers_mozz", "name": "Mozzarella Sticks", "description": "5 pcs mozzarella sticks with Macro's sauce", "price": 6.00 },
+        { "id": "burgers_jal", "name": "Jalapeño Bites", "description": "5 pcs jalapeño bites with Macro's sauce", "price": 8.00 },
+        { "id": "burgers_addchicken", "name": "Add Chicken to Wrap", "description": "", "price": 1.80, "unit": "pc" },
+        { "id": "burgers_addcheddar", "name": "Add Cheddar Sauce", "description": "", "price": 0.50 }
+      ]
+    },
+    {
+      "id": "broasted",
+      "label": "Broasted Chicken",
+      "type": "menu",
+      "items": [
+        { "id": "broasted_mini", "name": "Mini Combo", "description": "4 pcs broasted chicken, coleslaw, fries, bun, garlic, ketchup", "price": 11.00 },
+        { "id": "broasted_6pc", "name": "6 pcs Combo", "description": "6 pcs broasted chicken, coleslaw, fries, bun, garlic, ketchup", "price": 16.00 },
+        { "id": "broasted_bucket", "name": "Bucket Combo", "description": "1 full broasted chicken, coleslaw, fries, buns, garlic, ketchup", "price": 27.00 },
+        { "id": "broasted_wings", "name": "Wings Combo", "description": "6 pcs wings with buffalo and BBQ sauce", "price": 7.00 },
+        { "id": "broasted_exwings", "name": "Extra Wings", "description": "", "price": 1.80, "unit": "pc" },
+        { "id": "broasted_exthighs", "name": "Extra Thighs", "description": "", "price": 1.80, "unit": "pc" },
+        { "id": "broasted_exbreast", "name": "Extra Breast", "description": "", "price": 2.50, "unit": "pc" },
+        { "id": "broasted_fries_s", "name": "Fries Small", "description": "", "price": 2.00 },
+        { "id": "broasted_fries_l", "name": "Fries Large", "description": "", "price": 3.50 },
+        { "id": "broasted_coleslaw", "name": "Coleslaw", "description": "", "price": 1.50 },
+        { "id": "broasted_ketchup", "name": "Extra Ketchup", "description": "", "price": 0.50 },
+        { "id": "broasted_buffalo", "name": "Buffalo Sauce", "description": "", "price": 0.50 },
+        { "id": "broasted_bbq", "name": "BBQ Sauce", "description": "", "price": 0.50 },
+        { "id": "broasted_drink", "name": "Soft Drink", "description": "", "price": 1.00 }
+      ]
+    }
+  ]
+}
